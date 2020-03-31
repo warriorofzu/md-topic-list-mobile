@@ -4,5 +4,5 @@ After the [MD Topic List](https://github.com/iunctis/md-topic-list) on desktop, 
 
 For more informations, see : 
 
-- English : soon
-- Français : soon
+- English : https://meta.discourse.org/t/md-topic-list-mobile-component/146341
+- FranÃ§ais : https://www.mon-discourse.fr/themes/md-topic-list-mobile/
