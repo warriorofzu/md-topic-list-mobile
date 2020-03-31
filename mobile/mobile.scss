@@ -1,0 +1,58 @@
+.md-tlm {
+    width: 100%;
+    display: flex;
+}
+
+.tlm-title {
+    width: calc(100% - 50px);
+}
+
+.tlm-title  .main-link {
+    width: 95%;
+    font-size: 1.200em;
+}
+
+.tlm-title .main-link a.title {
+    padding: 0.5em 0 0.2em 0;
+}
+
+.md-tlm .topic-item-stats .category {
+    float: none;
+    display: inline-flex;
+}
+
+.md-tlm .topic-item-stats .badge-wrapper.bullet {
+    margin-right: 8px;
+}
+
+.tl-replies {
+    font-size: .8706em;
+    display: inline-flex;
+    vertical-align: -0.125em;
+}
+
+.tl-replies .fa.d-icon.d-icon-far-comment.svg-icon.svg-string {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.tl-replies a {
+    margin: -1px 0 0 4px;
+}
+
+.md-tlm .discourse-tags::before {
+    content: "🔖";
+    margin-left: 7px;
+    margin-right: 2px;
+}
+
+.tlm-right {
+    width: 50px;
+    text-align: center;
+    margin: auto 0;
+}
+
+.tlm-right .num.activity a {
+    padding: 0;
+    font-size: 0.8706em;
+}
