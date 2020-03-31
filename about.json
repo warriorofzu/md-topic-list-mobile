@@ -1,8 +1,8 @@
 {
   "name": "MD Topic List Mobile",
   "component": true,
-  "license_url": null,
-  "about_url": null,
+  "license_url": "https://github.com/iunctis/md-topic-list-mobile/blob/master/LICENSE",
+  "about_url": "https://www.mon-discourse.fr/themes/md-topic-list-mobile/",
   "authors": "Steven",
   "theme_version": "1.0",
   "minimum_discourse_version": "2.5.0.beta2",
