@@ -5,7 +5,7 @@
   "about_url": "https://www.mon-discourse.fr/themes/md-topic-list-mobile/",
   "authors": "Steven",
   "theme_version": "1.0",
-  "minimum_discourse_version": "2.5.0.beta2",
+  "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
   },
