@@ -4,7 +4,7 @@
     .tlm-title {
         width: calc(100% - 50px);
         .main-link {
-            width: 95%;
+            width: auto;
             font-size: 1.200em;
             a.title {
                 padding: 0.5em 0 0.2em 0;
@@ -12,6 +12,9 @@
         }
         .badge-notification {
             font-size: 0.8500em;
+        }
+        .topic-excerpt {
+            width: auto;
         }
     }
     .topic-item-stats {

@@ -1,13 +1,15 @@
 <script type='text/x-handlebars' data-template-name='mobile/list/topic-list-item.hbr'>
 <td>
+  {{~raw-plugin-outlet name="topic-list-before-columns"}}
   <div class="md-tlm">
 	<div class='tlm-title'>
         <div class='main-link'>
+		{{~raw-plugin-outlet name="topic-list-before-link"}}
 		{{~raw-plugin-outlet name="topic-list-before-status"}}
 		{{~raw "topic-status" topic=topic}}
 		{{~topic-link topic class="raw-link raw-topic-link"}}
-		{{~#if topic.featured_link}}
-		{{~topic-featured-link topic}}
+		{{~#if topic.featured_link~}}
+        {{~topic-featured-link topic~}}
 		{{~/if}}
 		{{~raw-plugin-outlet name="topic-list-after-title"}}
 		{{~raw "list/unread-indicator" includeUnreadIndicator=includeUnreadIndicator 
@@ -17,9 +19,9 @@
 		{{~raw "topic-post-badges" unread=topic.unread newPosts=topic.displayNewPosts unseen=topic.unseen url=topic.lastUnreadUrl newDotText=newDotText}}
 		{{~/if}}
         </div>
-		{{#if expandPinned}}
-			{{raw "list/topic-excerpt" topic=topic}}
-		{{/if}}
+		{{~#if expandPinned~}}
+          {{~raw "list/topic-excerpt" topic=topic~}}
+        {{~/if~}}
         <div class="topic-item-stats clearfix">
           {{#unless hideCategory}}
             <div class='category'>
