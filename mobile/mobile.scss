@@ -30,17 +30,21 @@
         font-size: .8706em;
         display: inline-flex;
         vertical-align: -0.125em;
-        a {
-            margin: -1px 0 0 4px;
-        }
         .fa.d-icon.d-icon-far-comment.svg-icon.svg-string {
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
         }
+        .posts-map {
+            font-size: 1em;
+            margin-top: -2px;
+        }
+        .num.posts a {
+            padding: 5px;
+        }
     }
     .discourse-tags::before {
         content: "🔖";
-        margin-left: 5px;
+        margin-left: 2px;
         margin-right: 2px;
     }
     .tlm-right {
