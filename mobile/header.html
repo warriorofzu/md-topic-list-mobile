@@ -28,7 +28,7 @@
               {{category-link topic.category}}
             </div>
           {{/unless}}
-          <div class="tl-replies">{{d-icon "far-comment"}} {{raw "list/post-count-or-badges" topic=topic postBadgesEnabled=showTopicPostBadges}}</div>
+          <div class="tl-replies">{{d-icon "far-comment"}} <a href="{{topic.firstPostUrl}}">{{number topic.replyCount noTitle="true"}}</a></div>
           {{discourse-tags topic mode="list"}}
         <div class="clearfix"></div>
         </div>
